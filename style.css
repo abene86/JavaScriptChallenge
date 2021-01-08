@@ -1,0 +1,37 @@
+
+.container{
+ border: 1px solid black;
+ width: 75%;
+ text-align:center;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-container-4{
+   display: flex;
+   padding: 10px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   border: 1px solid black;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    box-align: center;
+}
+.flex-box-container-2 img:hover{
+    box-shadow: 0px 1px 25px rgba(20, 4, 241, 0.7);;
+}
+.flex-box-image1{
+    justify-content: right;
+}
+#flex-box-container-3{
+    display: flex;
+    padding:10px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+#catimg{
+    margin:10px;
+    border: 1px solid green;
+    box-shadow: 0px 1px 25px rgba(7, 7, 7, 0.952);;
+}

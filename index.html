@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripts on steriods</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <h2 class="header1">Challenge 1: Your Age in Days</h2>
+    <div class="flex-box-container-1">
+        <div>
+            <button class="btn btn-primary" onclick="convertAgeInDays()">click me</button>
+        </div>
+        <div>
+            <button class="btn btn-danger" onclick="reset()">reset</button> 
+        </div>
+    </div>
+    <div class="flex-box-container-1">
+        <div id="flex-box-result"> </div>
+    </div>
+     <div class="container2">
+      <h2>Challenge 2: Rock Paper Scissors Game</h2>
+      <div class="flex-box-container-2" id="flex-box-container-2"> 
+        <img id='paper' src="images/paper.jpg" height=150 width=150 alt="paper image" onclick='throwHand(this)'>
+        <img id='rock' src="images/rock.png" height=150 width=150 alt="rock image" onclick='throwHand(this)'>
+        <img id='scissors' src="images/scissors.jpg" height=150 width=150 alt="scissor image" onclick='throwHand(this)'>
+      </div>
+     </div>
+    <div class="flex-box-container-2">
+        <div id="flex-box-result2"> </div>
+    </div>
+    <h2>Challenge 3: Generate Cat images</h2>
+    <button class="btn btn-dark" onclick='generateCatImg()'>Generate</button>
+     <div id="flex-box-container-3"></div>
+     <h2>Challenge 4: Change Color</h2>
+     <div class="container-4">
+         <div class="flex-box-container-4">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li> <button>random</button></li>
+                    <li> <button>blue</button></li>
+                    <li> <button>green</button></li>
+                    <li> <button>yellow</button></li>
+                </ul>
+              </div>
+              <div>
+                <button class="btn btn-primary">GOOGLE!</button>
+                <button class="btn btn-success">YAHOO!</button>
+                <button class="btn btn-warning">FACEBOOK!</button>
+                <button class="btn btn-info">AMAZON!</button>
+              </div>
+         </div>  
+     </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
